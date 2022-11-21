@@ -48,12 +48,13 @@ function App() {
   }, 1000);
   return (
     <div className="App">
-    <div><video
-    id="video1"
-    ref={videoRef}
-    className="video"
-    src={video}
-  ></video></div>
+    <div>
+      <video id="video1" 
+        ref={videoRef}
+        className="video"
+        src={video}
+       ></video>
+  </div>
     
       <div className="controlsContainer">
       
